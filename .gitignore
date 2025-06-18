@@ -1,0 +1,70 @@
+# ===== FRONTEND EXPO / REACT NATIVE =====
+node_modules/
+.expo/
+.expo-shared/
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.*  # caso tenha variáveis específicas de ambiente
+
+# Android
+android/
+
+# iOS
+ios/
+
+# Metro bundler cache
+metro-cache/
+
+# Misc
+package-lock.json
+yarn.lock
+
+# VSCode configs
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ===== BACKEND DJANGO =====
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Django settings secrets
+.env
+*.env
+
+# SQLite database
+db.sqlite3
+
+# Django migration backups
+*.sqlite3
+
+# Static and media files
+staticfiles/
+media/
+
+# Virtual environment
+venv/
+.venv/
+
+# Other
+*.bak
+*.swp
+
+# Pycharm IDE
+.idea/
+
+# ===== GERAL =====
+# GitHub uploads cache
+*.zip
+*.tar.gz
+*.rar
+*.7z
